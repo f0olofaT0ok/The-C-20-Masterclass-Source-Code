@@ -2,6 +2,10 @@
 
 
 int main(){
+    // This chops off the .6 and doesn't give an error in the compiler
+    //int testing(23.6);
+
+    //std::cout <<"testing value: " << testing << std::endl;
 
     signed int value1 {10};
     signed int value2 {-300};
@@ -42,6 +46,7 @@ int main(){
 
         std::cout << "Short variable : " << short_var<<  " , size : "
         << sizeof (short) << " bytes" << std::endl;
+        
 
         std::cout << "Short Int : " << short_int << " , size : "
         << sizeof (short int) << " bytes" << std::endl;
@@ -111,5 +116,6 @@ int main(){
         
     std::cout << "---------------------" << std::endl;
    
+
     return 0;
 }
