@@ -59,7 +59,7 @@ int main(){
     std::cout << "Infinity and NaN" << std::endl;
     
     double number10{ -5.6 };
-    double number11{};//Initialized to 0
+    double number11{};  //Initialized to 0
     double number12{};  //Initialized to 0
 
     //Infinity
